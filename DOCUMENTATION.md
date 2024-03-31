@@ -6,10 +6,11 @@ most popular financial instruments mentioned.
 ## Installation
 
 1. Run `composer install` to install dependencies.
-1. Run `php artisan migrate` to run migration.
-1. Run `php artisan db:seed` to insert data.
-1. Run `composer install` to install dependencies.
-2. Run `php artisan serve` to start the server.
+2. Set the .env file with values on your local host
+3. Run `php artisan migrate` to run migration.
+4. Run `php artisan db:seed` to insert data.
+5. Run `composer install` to install dependencies.
+6. Run `php artisan serve` to start the server.
 
 ## Usage
 
@@ -82,4 +83,7 @@ run the following command:
 - Laravel 11
 - Redis
 - PHP 8.2
+- Postgres
+- Browser factory
+
 
